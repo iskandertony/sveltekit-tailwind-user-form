@@ -1,38 +1,39 @@
-# sv
+# SvelteKit + TailwindCSS User Form
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This project demonstrates a user form built with **SvelteKit** and **TailwindCSS**. The form includes fields for user details, validation, and a responsive layout.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Built with **SvelteKit** and **TailwindCSS**
+- Validation for all fields
+- Responsive design
+- Formatting for USD amounts
+- Conditional field rendering
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Requirements
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **Node.js**: >=18.0.0
+- **npm**: >=9.0.0
 
-## Developing
+## Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Clone the repository:
+   `git clone <YOUR_REPOSITORY_URL>`
 
-```bash
-npm run dev
+2. Navigate to the project directory:
+   `cd sveltekit-tailwind-user-form`
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+3. Install dependencies:
+   `npm install`
 
-## Building
+## Running the Project
 
-To create a production version of your app:
+To start the development server: `npm run dev`
 
-```bash
-npm run build
-```
+Open your browser and navigate to `http://localhost:5173`.
 
-You can preview the production build with `npm run preview`.
+## Building for Production
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+To build the project for production: `npm run build`
+
+To preview the production build: `npm run preview`
